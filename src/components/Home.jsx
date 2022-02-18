@@ -18,8 +18,6 @@ const Home = () => {
         getGifts("monday");
     }, []);
 
-    gifts && console.log(gifts);
-
     return (
         <div>
             <Search getGifts={getGifts} />
